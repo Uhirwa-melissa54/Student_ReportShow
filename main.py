@@ -22,4 +22,8 @@ print("Choose to continue")
 print("1.Continue]\n 0.exit")
 decision=int(input())
 if decision==1:
-    print("Choose what you want to do:")    
+    print("Choose what you want to do:\n 1.View Students \n 2.Find each student average\n3.Find each subject Marks \n")
+elif decision==0:
+    print("Bye")
+    exit()
+
