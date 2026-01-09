@@ -2,6 +2,9 @@ print("Welcome to StudentReportShow")
 print("How many student do you have?")
 numberOfStudent=int(input())
 student={}
+def viewStudent():
+    for x in student:
+        print(x)
 for x in range(numberOfStudent):
     print("Enter Student's Name")
     name=input()
@@ -23,6 +26,7 @@ print("1.Continue]\n 0.exit")
 decision=int(input())
 if decision==1:
     print("Choose what you want to do:\n 1.View Students \n 2.Find each student average\n3.Find each subject Marks \n")
+    choice=input()
 elif decision==0:
     print("Bye")
     exit()
